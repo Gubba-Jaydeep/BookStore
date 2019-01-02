@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="booksinfo.xsl"?>
+<!DOCTYPE BookStore SYSTEM "book.dtd">
+<BookStore>
+  <book>
+        <Title> Inferno</Title>
+        <Author>Dan Brown</Author>
+        <ISBN>19991918</ISBN>
+        <Publisher>antam Books</Publisher>
+        <Edition>JD</Edition>
+        <Price>450</Price>
+  </book>
+  <book>
+        <Title> The DaVinci Code</Title>
+        <Author>Dan Brown</Author>
+        <ISBN>19991918</ISBN>
+        <Publisher>antam Books</Publisher>
+        <Edition>JD</Edition>
+        <Price>550</Price>
+  </book>
+  <book>
+        <Title> World War Z</Title>
+        <Author>Max Brooks</Author>
+        <ISBN>1212128</ISBN>
+        <Publisher>europia Books</Publisher>
+        <Edition>JD</Edition>
+        <Price>700</Price>
+  </book>
+  <book>
+        <Title> Lost Symbol</Title>
+        <Author>Dan Brown</Author>
+        <ISBN>45321918</ISBN>
+        <Publisher>lodropia Books</Publisher>
+        <Edition>JD</Edition>
+        <Price>750</Price>
+  </book>
+  <book>
+        <Title> IT</Title>
+        <Author>Stephen King</Author>
+        <ISBN>11223918</ISBN>
+        <Publisher>europia Books</Publisher>
+        <Edition>JD</Edition>
+        <Price>1000</Price>
+  </book>
+  <book>
+        <Title> A Game Of Thrones</Title>
+        <Author>George RR Martin</Author>
+        <ISBN>143431918</ISBN>
+        <Publisher>dontcare Books</Publisher>
+        <Edition>JD</Edition>
+        <Price>7000</Price>
+  </book>
+</BookStore>

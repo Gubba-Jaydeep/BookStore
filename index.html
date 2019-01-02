@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Login Page</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<img src="images/man.png">
+	<div class="LoginBox">
+
+		<div class='left'>
+			<a href='index.html'>
+				<button>LogIn</button>
+			</a>
+		</div>
+		<div class='right'>
+			<a href="login2.html">
+				<button>SignIn</button>
+			</a>
+		</div>
+		<div class='LoginBoxChild'>
+			<form onsubmit="return logsub()" action="main.html" method="GET">
+				<input type="text" name="email" placeholder="Email" id="email_main">
+				<br>
+				<input type="password" name="password" placeholder="*****" id="password_main">
+				<br>
+				<input type="submit" name="login" value="LOGIN">
+
+				<a href="">Forgot Password</a>
+				<div id="tempm"></div>
+			</form>
+		</div>
+
+	</div>
+	<script type="text/javascript" src='scripts/myscript.js'></script>
+</body>
+
+</html>

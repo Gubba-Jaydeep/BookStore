@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Login Page</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<img src="images/man.png">
+	<div class="LoginBox">
+
+		<div class='left'>
+			<a href='index.html'>
+				<button style="background-color:rgb(20,20,20,0.7);">LogIn</button>
+			</a>
+		</div>
+		<div class='right'>
+			<a href="login2.html">
+				<button style="background-color: rgba(40,40,40,0);">SignIn</button>
+			</a>
+		</div>
+		<div class='LoginBoxChild'>
+			<form action="index.html" onsubmit="return funcSubmit()" name="vform">
+				<input type="text" name="username" placeholder="First Name" class='left' style="width: 45%" id="uid">
+				<br>
+				<input type="text" name="lastname" placeholder="Last Name" class='right' style="width: 45%" id="lid">
+				<br>
+				<div id='name_error' class='myerror'></div>
+				<input type="text" name="email" placeholder="New Email" id='eid'>
+				<br>
+				<div id='email_error' class='myerror'></div>
+				<input type="password" name="password" placeholder="New-Password" id="pid">
+				<br>
+				<input type="password" name="password_confirm" placeholder="Confirm Password" id="cpid">
+				<br>
+				<div id='password_error' value='jay' class='myerror'></div>
+				<select>
+					<option>+91</option>
+					<script>
+						for (i = 1; i <= 99; i++) {
+							if (i == 91) {
+								document.write("<option selected>+" + i + "</option>");
+							}
+							else
+								document.write("<option style='color:black;'>+" + i + "</option>");
+						}
+					</script>
+				</select>
+				<input type="text" name="Phone number" placeholder="Phone Number" style="float: right;width:75%">
+				<br>
+				<p class='pdob'>DOB:</p>
+				<div style="float: right;margin-bottom: 20px;">
+					<select>
+						<option value="" selected disabled hidden>Date</option>
+						<script>
+							for (i = 1; i <= 31; i++)
+								document.write("<option>" + i + "</option>");
+						</script>
+					</select>
+					<select>
+						<option value="" selected disabled hidden>Month</option>
+						<script>
+							for (i = 1; i <= 12; i++)
+								document.write("<option>" + i + "</option>");
+						</script>
+					</select>
+					<select>
+						<option value="" selected disabled hidden>Year</option>
+						<script>
+							for (i = 2018; i > 1745; i--)
+								document.write("<option>" + i + "</option>");
+						</script>
+					</select>
+				</div>
+
+				<input type="submit" name="SignIn" value="SignIn" >
+			</form>
+
+		</div>
+
+	</div>
+	<script type="text/javascript" src='scripts/myscript.js'></script>
+</body>
+
+</html>

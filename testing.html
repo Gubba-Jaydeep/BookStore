@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+        <img id="myImg" src="images/b1.jpg" alt="Inferno">
+    <div class="test">
+        <p>this is 2</p>
+        <img id='sec'>
+    </div>
+    <script type="text/javascript" src="scripts/jquery_3.3.1.js"></script>
+    <script>
+        var x;
+        var y=document.getElementById('sec');
+        $("#myImg").click(function(){
+            x=this.src
+            y.src=x            
+        })
+    </script>
+</body>
+</html>

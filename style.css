@@ -1,0 +1,131 @@
+html{
+	background: url(images/bg3.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+.LoginBox{
+	width: 300px;
+	
+	margin: 0 auto;
+	background-color: rgba(40,40,40,.5);
+
+	
+	padding-top: 0px;
+	border-radius: 5px;
+	margin-top: 50px;
+	text-align: center;
+	box-sizing: border-box;
+}
+.LoginBoxChild{
+	
+	padding: 20px;
+}
+img{
+	width: 120px;
+	height: 120px;
+	margin-left: 45%;
+	margin-top: 30px;
+}
+
+
+.LoginBox input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.LoginBox input[type="text"],
+.LoginBox input[type="password"],
+.LoginBox select{
+
+	color: #fff;
+	background: transparent;
+	height: 40px;
+	border: none;
+	border-bottom: 1px solid #fff;
+	font-size: 16px;
+	outline: none;
+	
+
+}
+.LoginBox input[type="submit"]{
+	height: 40px;
+	border:none;
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	cursor: pointer;
+	background: #ff267e;
+	border-radius: 20px;
+}
+.LoginBox input[type="submit"]:hover
+{
+	background: #efed40;
+	color: #262626;
+}
+
+.left{
+	font-weight: bold;
+	float: left;
+	width: 45%;
+	
+}
+.right{
+	font-weight: bold;
+	float: right;
+	width: 45%;
+	
+	
+
+}
+.left button{
+	
+	height: 50px;
+	width: 100%;
+	background-color: rgba(40,40,40,0);
+	border:none;
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	cursor: pointer;
+}
+.right button{
+	
+	height: 50px;
+	width: 100%;
+	/*background-color:white;*/
+	background-color:rgb(20,20,20,0.7);
+	border:none;
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	cursor: pointer;
+}
+.LoginBoxChild a{
+	color: #000;
+	font-weight: bold;
+	font-size: 15px;
+	text-decoration: none;
+	font-family: sans-serif;
+}
+.LoginBoxChild a:hover{
+	color: #ff5c33;
+}
+.pdob{
+	margin-top: 33px;
+	font-size: 16px;
+	color: rgba(255,255,255,.5);
+	font-weight: bold;
+	float: left;
+}
+::placeholder
+{
+	color: rgba(255,255,255,.5);
+}
+.LoginBox select{
+	color: rgba(255,255,255,.5);
+}
+.myerror{
+	width:100%;
+	color: #ff5c33;
+	text-align: left;
+	font-weight: bold;
+	font-family: sans-serif;
+}
